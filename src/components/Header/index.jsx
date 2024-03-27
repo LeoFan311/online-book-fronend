@@ -6,7 +6,7 @@ import { doLogoutAction } from '../../redux/account/accountSlice';
 import { Link, useNavigate } from 'react-router-dom';
 import { memo, useState } from 'react';
 import { callLogout } from '../../services/api';
-import HeaderCart from './headerCart';
+import HeaderCart from '../../../src/components/Header/HeaderCart';
 import AccountManage from '../AccountManage';
 
 const Header = () => {
